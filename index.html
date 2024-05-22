@@ -126,30 +126,24 @@
     <!-- End Card -->
     <br>
     <!-- Hírlevél -->
-    <div class="d-flex justify-content-center">
-      <div class="col-12 col-md-12 col-lg-6 pt-4 pd-4">
-        <form action="#" class="bg-light p-4 m-auto shadow-sm">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="mb-3">
-                <input class="form-control" placeholder="Teljes Név" type="text" required>
-              </div>
-            </div>
-            <div class="col-md-12">
-              <div class="mb-3">
-                <input class="form-control" placeholder="Email" type="email" required>
-              </div>
-            </div>
-            <div class="col-md-12">
-              <div class="mb-3">
-                <textarea class="form-control" placeholder="Üzenet" rows="3" required></textarea>
-              </div>
-            </div>
-            <button class="btn btn-primary btn-lg btn-block mt-3" type="button">Feliratkozás</button>
+    <section id="contact" class="mt-5">
+      <h2 class="text-center">Kapcsolat</h2>
+      <form>
+          <div class="mb-3">
+              <label for="name" class="form-label">Név</label>
+              <input type="text" class="form-control" id="name" required>
           </div>
-        </form>
-      </div>
-    </div>
+          <div class="mb-3">
+              <label for="email" class="form-label">E-mail cím</label>
+              <input type="email" class="form-control" id="email" required>
+          </div>
+          <div class="mb-3">
+              <label for="message" class="form-label">Üzenet</label>
+              <textarea class="form-control" id="message" rows="3" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Küldés</button>
+      </form>
+  </section>
     <!-- Hírlevél Vége -->
 
 <!-- Bootstarp 5.3 Script -->
