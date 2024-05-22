@@ -71,6 +71,7 @@ body{
 }
 
 #contact {
+    width: 100vh;
     border: solid white;
     border-radius: 10px;
 }
